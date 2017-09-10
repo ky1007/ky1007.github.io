@@ -1,0 +1,65 @@
+/* ---- MINI RESET ---- */
+html {
+  box-sizing: border-box;
+}
+
+body, article, section, h1, h2, h3, h4, div {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, header, footer, section {
+	display: block;
+}
+
+
+/* ---- TYPOGRAPHY ---- */
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2 { text-transform: uppercase; }
+
+h4, .about {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { font-size: 8rem; }
+
+h2 { 
+  font-size: 3rem; 
+  text-align: center;
+}
+
+h3 { font-size: 2rem; }
+
+h1 {
+  background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(left, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, #E0F8F7, #585858, #fff); /* Standard syntax; must be last */
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* ---- LAYOUT ---- */
+header {
+  background-color: #eee;
+  padding: 3rem;
+  text-align: center;
+}
+
+article {
+  background-color: #aaa;
+  padding: 4rem;
+}
+
+section {
+  padding: 1.2rem;
+}
