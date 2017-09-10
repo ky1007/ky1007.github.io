@@ -19,11 +19,6 @@ article, header, footer, section {
 
 /* ---- TYPOGRAPHY ---- */
 body {
-  /* font-family: 'Lato', sans-serif; */
-  /* font-family: 'Source Sans Pro', sans-serif; */
-  /* font-family: 'Work Sans', sans-serif; */
-  /* font-family: 'Asap', sans-serif; */
-  /* font-family: 'Encode Sans', sans-serif; */
   font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3 {
@@ -41,6 +36,8 @@ h1 { font-size: 8rem; }
 .about { 
   font-size: 1.8rem;
   color: #444;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h2 { 
@@ -51,10 +48,10 @@ h2 {
 h3 { font-size: 2rem; }
 
 h1 {
-  background-image: -webkit-linear-gradient(left, #4B088A, #9A2EFE, #3A01DF); /* For Chrome and Safari */
+  /* background-image: -webkit-linear-gradient(left, #4B088A, #9A2EFE, #3A01DF); */
   /* background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); */
-
-  color:transparent;
+  color: #000;
+  /* color: transparent; */
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -63,7 +60,7 @@ h1 {
 /* ---- LAYOUT ---- */
 header {
   background-color: #fff;
-  padding: 3rem;
+  padding: 8rem  0;
   text-align: center;
 }
 
