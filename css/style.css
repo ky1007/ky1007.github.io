@@ -20,6 +20,7 @@ article, header, footer, section {
 /* ---- TYPOGRAPHY ---- */
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 h1, h2, h3 {
   font-family: 'Josefin Sans', sans-serif;
@@ -34,7 +35,7 @@ h1, h2 { text-transform: uppercase; }
 h1 { font-size: 8rem; }
 
 .about { 
-  font-size: 1.4rem;
+  font-size: 1.65rem;
   font-weight: 300;
   color: #222;
   /* max-width: 800px; */
@@ -48,12 +49,17 @@ h1 { font-size: 8rem; }
   /* background-image: -webkit-linear-gradient(42deg, #4776E6, #5B00C7); */
 }
 
-h2 { 
-  font-size: 3rem; 
-  text-align: center;
+h3 { 
+  font-size: 2.6rem; 
+  /* background-color: rgba(91, 0, 199, 0.6); */
+  color: #fff;
+  line-height: 1.9;
+  /* background-image: -webkit-linear-gradient(22deg, #fc4a1a, #f7b733); */
+  /* background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); */
+  /* color: #000; */
+  color: #fff;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 }
-
-h3 { font-size: 2rem; }
 
 h1 {
   background-image: -webkit-linear-gradient(42deg, #5B00C7, #4776E6);
@@ -74,12 +80,19 @@ h2 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  padding: 0 0 2rem 0;
+  padding: 3rem 0 2rem 0;
+  font-size: 3.8rem; 
+  text-align: center;
 }
 
 .footer h2 {
   background-image: -webkit-linear-gradient(22deg, #fc4a1a, #f7b733);
-  
+}
+
+h4 {
+  font-size: 1.8rem;
+  padding: 0.8rem 0;
+  line-height: 1.6;
 }
 
 /* ---- LAYOUT ---- */
@@ -98,7 +111,11 @@ article {
 
 section {
   padding: 1.2rem;
-  max-width: 360px;
+  max-width: 1100px;
+  /* background-color: #F7F7F7; */
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-container { 
@@ -109,10 +126,21 @@ section {
 
 .projects {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
+.project-info {
+  background-image: -webkit-linear-gradient(22deg, #5B00C7, #4776E6);
+  border-radius: 8px;
+  padding: 2.6rem;
+}
+
+.project-preview {
+  flex: 1;
+}
 .footer {
   background-image: url("../images/topography.png");
 }
@@ -120,4 +148,5 @@ section {
 img {
   max-width: 100%;
   max-height: 100%;
+  /* max-width: 400px; */
 }
