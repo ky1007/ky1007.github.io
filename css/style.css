@@ -99,17 +99,20 @@ h4 {
   display: inline-block;
   padding: 0.6rem;
   background-color: rgba(0,0,0, 0.48);
+  /* border-radius: 4px; */
 }
 
 .stack {
   padding: 0.6rem;
   background-color: rgba(0,0,0, 0.24);
   line-height: 2.8;
+  /* border-radius: 4px; */
 }
 
 .project-links {
   /* background-color: #eee; */
   text-align: center;
+  align-self: flex-end;
     /* background-image: url("../images/CREATE.gif");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -124,6 +127,13 @@ h4 {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(37deg, rgba(255,255,255, 0.20), rgba(255,255,255, 0.28));
+}
+
+.project-links a:hover {
+  background-image: -webkit-linear-gradient(37deg, rgba(255,255,255, 0.22), rgba(255,255,255, 0.48));
+  
 }
 
 /* ---- LAYOUT ---- */
@@ -153,7 +163,7 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 600px;
+  /* min-height: 600px; */
 }
 
 .proj-1 {
@@ -179,11 +189,12 @@ section {
   /* background-image: -webkit-linear-gradient(22deg, #5B00C7, #4776E6); */
   border-radius: 8px;
   padding: 2.6rem;
-  min-height: 600px;
+  /* min-height: 600px; */
 }
 
 .project-preview {
   opacity: 1;
+  padding: 1rem 0;
 }
 .project-preview:hover {
   opacity: 1;
@@ -193,7 +204,14 @@ section {
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 50%;
+  max-height: 50%;
+  opacity: 0.6;
   /* max-width: 400px; */
+  border-radius: 4px;
+}
+
+img:hover {
+  opacity: 1;
+  transition: 0.32s
 }
