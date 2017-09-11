@@ -52,12 +52,11 @@ h1 { font-size: 8rem; }
 h3 { 
   font-size: 2.6rem; 
   /* background-color: rgba(91, 0, 199, 0.6); */
-  color: #fff;
+  /* color: #fff; */
   line-height: 1.9;
   /* background-image: -webkit-linear-gradient(22deg, #fc4a1a, #f7b733); */
   /* background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); */
   /* color: #000; */
-  color: #fff;
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -95,6 +94,38 @@ h4 {
   line-height: 1.6;
 }
 
+.mini-heading {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.6rem;
+  background-color: rgba(0,0,0, 0.48);
+}
+
+.stack {
+  padding: 0.6rem;
+  background-color: rgba(0,0,0, 0.24);
+  line-height: 2.8;
+}
+
+.project-links {
+  /* background-color: #eee; */
+  text-align: center;
+    /* background-image: url("../images/CREATE.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;  */
+}
+.project-links a {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #fff; 
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
 /* ---- LAYOUT ---- */
 header {
   background-color: #fff;
@@ -110,12 +141,23 @@ article {
 }
 
 section {
-  padding: 1.2rem;
+  /* padding: 1.2rem; */
   max-width: 1100px;
   /* background-color: #F7F7F7; */
-  margin: 2rem;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
+  /* background-image: url("../images/privy.gif"); */
+  border-radius: 8px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.proj-1 {
+  /* background-image: url("../images/CREATE.gif"); */
 }
 
 .about-container { 
@@ -133,13 +175,18 @@ section {
 }
 
 .project-info {
-  background-image: -webkit-linear-gradient(22deg, #5B00C7, #4776E6);
+  background-image: -webkit-linear-gradient(22deg, rgba(91, 0, 199, 0.88), rgba(71, 118, 230, 0.88));
+  /* background-image: -webkit-linear-gradient(22deg, #5B00C7, #4776E6); */
   border-radius: 8px;
   padding: 2.6rem;
+  min-height: 600px;
 }
 
 .project-preview {
-  flex: 1;
+  opacity: 1;
+}
+.project-preview:hover {
+  opacity: 1;
 }
 .footer {
   background-image: url("../images/topography.png");
