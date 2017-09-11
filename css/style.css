@@ -137,6 +137,17 @@ a:hover {
   
 }
 
+
+header a {
+  background-image: -webkit-linear-gradient(37deg, rgba(0, 211, 201, 1), rgba(0, 241, 230, 1));
+  color: #fff;
+}
+
+header a:hover {
+  background-image: -webkit-linear-gradient(37deg, rgba(0, 211, 201, 0.84), rgba(0, 241, 230, 0.84));
+  color: #fff;
+}
+
 footer a {
   background-image: -webkit-linear-gradient(37deg, rgba(252,74,26, 1), rgba(247,183,51, 1));
   color: #fff;
